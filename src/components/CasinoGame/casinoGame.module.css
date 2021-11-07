@@ -1,0 +1,196 @@
+
+.gameLogoImg {
+   width: 276px;
+   border-radius: 4px;
+    margin: 0 auto 30px;
+}
+ .ratingList li {
+     float: right;
+     color: #ddd;
+     padding: 10px 5px;
+}
+
+.ratingList li:hover,
+.ratingList li:hover ~ li {
+  color: red;
+}
+ .ratingList {
+     display: inline-block;
+     list-style: none;
+}
+ .bonusText{
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 28px;
+     letter-spacing: 0em;
+     text-align: center;
+     color: var(--main-color);
+     max-width: 44%;
+     margin: 0 auto  10px;
+    }
+  .description {
+      color: var(--main-color);
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 100%;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+       line-height: 14px;
+     letter-spacing: 0em;
+      text-align: center;
+    }
+ .moreLink{
+      font-size: 12px;
+       font-style: normal;
+      font-weight: 400;
+      line-height: 14px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: var(--main-color);
+     text-decoration: underline;
+     }
+ .descriptionContent {
+      display: flex;
+      align-items: flex-end;
+    }
+ .promoContent{
+     margin-bottom: 30px;
+   }
+ .price {
+     color: var(--main-color);
+     font-size: 24px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: 28px;
+       letter-spacing: 0em;
+       text-align: center;
+      margin-bottom: 30px;
+     }
+  .rateContainer{
+      display: flex;
+       justify-content: center;
+      flex-wrap: wrap;
+   }
+ .rateSignature {
+   color: var(--main-color);
+      font-size: 16px;
+     font-style: normal;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: 0em;
+      text-align: center;
+      margin-bottom: 8px;
+      width: 100%;
+    }
+ .readReviewLink {
+     width: 100%;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+     line-height: 23px;
+     letter-spacing: 0em;
+     text-align: center;
+      text-decoration: underline;
+     color: var(--main-color);
+    }
+ .mark {
+      font-size: 64px;
+     font-style: normal;
+      font-weight: 500;
+      line-height: 75px;
+      letter-spacing: 0em;
+      color: var(--main-color);
+      margin: 30px auto;
+      text-align: center;
+    }
+ .visitSiteBtn{
+     font-size: 18px;
+     font-style: normal;
+    font-weight: 700;
+     line-height: 21px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: white;
+      width: 184px;
+      height: 48px;
+      background-color: #ED1C49;
+      display: flex;
+     align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+     margin: 0 auto;
+    }
+.casinoGameListItem {
+      padding: 40px 0px;
+   }
+.casinoGameListItem {
+      border-bottom: 1px solid #D1D1D1;
+      margin: 0 20px
+    }
+ .casinoGameListItem:last-child {
+      border-bottom: none;
+   }
+ @media screen and (min-width: 768px) {
+  .descriptionContent {
+         max-width: 227px;
+         margin: 0 auto;
+       }
+ .bonusText {
+          font-size: 24px;
+        }
+ }
+ @media screen and (min-width: 1024px) {
+ .casinoGameListItem {
+       display: flex;
+       align-items: center;
+      justify-content: space-between;
+     }
+ .casinoGameListItem:after {
+          display: none;
+       }
+   .bonusText {
+          max-width: 100%;
+        }
+ }
+ @media screen and (min-width: 1440px) {
+   .casinoGameListItem {
+         padding: 80px 0px;
+       }
+  .casinoGameListItem {
+         border-bottom: 1px solid #D1D1D1;
+          margin: 0 35px
+        }
+  .casinoGameListItem:last-child {
+          border-bottom: none;
+       }
+   .casinoGameListItem .gameLogoImg {
+         margin: 0 30px 0 0;
+       }
+  .bonusText {
+          max-width: 60%;
+        }
+  .rateContainer {
+         max-width: 145px;
+          margin-right: 30px;
+       }
+  .mark{
+         margin: 0 30px 0 auto;
+       }
+   .descriptionContent {
+         max-width: 211px;
+        }
+  .promoContent {
+          margin-bottom: 0px;
+         margin-right: 30px;
+        }
+   .price {
+          margin-bottom: 0;
+       margin-right: 30px;
+      }
+ }
+
